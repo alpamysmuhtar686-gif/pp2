@@ -1,6 +1,8 @@
-#Python coments 
-x = 5
-y = 6
-z = 7
-name = input("Enter your name: ",)
-print ("Hello, ", name)
+a = int(input())
+b = int(input())
+if a>b:
+    print(a)
+elif a<b:
+    print(b)
+else:
+    print("equal")
