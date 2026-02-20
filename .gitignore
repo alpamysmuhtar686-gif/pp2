@@ -1,9 +1,0 @@
-.DS_Store
-<<<<<<< HEAD
-**/.DS_Store
-=======
-.vscode/
-**/.DS_Store
-__pycache__/
-*.pyc
->>>>>>> 03a2c37 (Ignore macOS and VSCode files)
