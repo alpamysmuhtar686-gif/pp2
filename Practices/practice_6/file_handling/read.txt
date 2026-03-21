@@ -1,0 +1,3 @@
+This text file is for read_files
+You can modify it!
+This file have written 2026/03/02 12:33 in KBTU, 269 room, PC #7

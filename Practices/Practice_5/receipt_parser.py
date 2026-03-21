@@ -7,22 +7,11 @@ def parse_check() -> list:
     result = {}
 
     product_info = re.findall(r"^\d+\.\n(.+)\n(.+)\n(.+)", txt, re.MULTILINE)
-    # product_ids = re.findall(r"^\d+\.$", txt, re.M)
-    # parsed_product_ids = [int(i[0:-1]) for i in product_ids]
-    # max_id = max(i for i in parsed_product_ids)
-
-    # max_len = 1
-    # for product in product_info:
-    #     # print(product[0], "lenth: ", len(product[0]))
-    #     if len(product[0]) > max_len:
-    #         max_len = len(product[0])
-
-    # print(max_len)
-
+    
     print("Check info")
-    print("=" * 145)
-    print(f"{"id":5} {"Product Name: ":100} {"Product Price":10}")
-    print("-" * 145)
+    
+    print(f'{"id":5} {"Product Name: ":100} {"Product Price":10}')
+    
     id = 1
     result = []
     for product in product_info:
@@ -42,7 +31,7 @@ def parse_check() -> list:
         result.append(product_dict_info)
         id += 1
 
-    print("-" * 145)
+    
     total_amount = re.findall(r"^ИТОГО:\n(.+)", txt, re.M)
 
     payment_method = re.findall(r"^(.*)\n(.+)\nИТОГО", txt, re.M)
@@ -57,6 +46,3 @@ def parse_check() -> list:
     return result
 
 a = parse_check()
-# parsed_data = json.dumps(a, separators = (",", ":"))
-# print("\n", *a, sep = "\n")
-# print("\n", parsed_data)
