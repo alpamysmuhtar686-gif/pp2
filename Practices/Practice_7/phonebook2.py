@@ -1,13 +1,7 @@
-import psycopg2
 import csv
+from connect import connect
 
-conn = psycopg2.connect(
-    host="localhost",
-    database="phonebook_db",
-    user="postgres",
-    password="Asdfghjkl23@"
-)
-
+conn = connect()
 cur = conn.cursor()
 
 
@@ -80,37 +74,26 @@ def update_contact():
         print("Неправильный выбор")
 
 
-def find_by_name():
-    name = input("Введите имя для поиска: ")
-
-    cur.execute("""
-        SELECT * FROM phonebook
-        WHERE username = %s;
-    """, (name,))
-    rows = cur.fetchall()
-
-    if rows:
-        for row in rows:
-            print(row)
-    else:
-        print("Контакты не найдены")
-
-
-def find_by_phone_prefix():
-    prefix = input("Введите начало номера: ")
-
-    cur.execute("""
-        SELECT * FROM phonebook
-        WHERE phone LIKE %s;
-    """, (prefix + '%',))
-    rows = cur.fetchall()
-
-    if rows:
-        for row in rows:
-            print(row)
-    else:
-        print("Контакты не найдены")
-
+def filter_cont():
+    print("1 - фильтроать по номеру ")
+    print("2 - фильтровать по имени ")
+    op= int(input())
+    if op ==1:
+        op1=input("Введите с чего начинается номер ")
+        cur.execute(
+            "SELECT * FROM phonebook WHERE phone LIKE %s;"
+        ,(op1+'%',))
+        itit=cur.fetchall()
+        for i in itit:
+            print(i)
+    elif op==2:
+        op2= input("Введите с чего начинается имя ")
+        cur.execute(
+            "SELECT * FROM phonebook WHERE username LIKE %s"
+        ,(op2+'%',))
+        rere = cur.fetchall()
+        for l in rere:
+            print(l)
 
 def delete_contact():
     print("1 - Удалить по имени")
@@ -139,9 +122,15 @@ def delete_contact():
         print("Неправильный выбор")
 
 
+import os
+import csv
+
 def insert_from_csv():
     try:
-        with open("contacts.csv", "r", encoding="utf-8") as file:
+        base_dir = os.path.dirname(os.path.abspath(__file__))
+        file_path = os.path.join(base_dir, "contacts.csv")
+
+        with open(file_path, "r", encoding="utf-8") as file:
             reader = csv.reader(file)
             next(reader)
 
@@ -160,15 +149,6 @@ def insert_from_csv():
     except FileNotFoundError:
         print("Файл contacts.csv не найден")
 
-
-def clear_table():
-    cur.execute("""
-        TRUNCATE TABLE phonebook RESTART IDENTITY;
-    """)
-    conn.commit()
-    print("Таблица очищена")
-
-
 create_table()
 
 menu = True
@@ -177,11 +157,9 @@ while menu:
     print("1 - Добавить контакт вручную")
     print("2 - Показать все контакты")
     print("3 - Обновить контакт")
-    print("4 - Найти по имени")
-    print("5 - Найти по префиксу номера")
-    print("6 - Удалить контакт")
-    print("7 - Загрузить контакты из CSV")
-    print("8 - Очистить таблицу")
+    print("4 - Фильтр")
+    print("5 - Удалить контакт")
+    print("6 - Загрузить контакты из CSV")
     print("0 - Выход")
 
     choice = input("Ваш выбор: ")
@@ -193,15 +171,11 @@ while menu:
     elif choice == "3":
         update_contact()
     elif choice == "4":
-        find_by_name()
+        filter_cont()
     elif choice == "5":
-        find_by_phone_prefix()
-    elif choice == "6":
         delete_contact()
-    elif choice == "7":
+    elif choice == "6":
         insert_from_csv()
-    elif choice == "8":
-        clear_table()
     elif choice == "0":
         menu = False
         print("Программа завершена")
