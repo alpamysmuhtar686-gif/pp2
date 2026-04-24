@@ -1,38 +1,29 @@
 import pygame
 from player import MusicPlayer
 
+
 pygame.init()
 
-screen = pygame.display.set_mode((600, 300))
+WIDTH, HEIGHT = 600, 300
+screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Music Player")
 
-font = pygame.font.Font(None, 36)
+font = pygame.font.SysFont(None, 32)
+small_font = pygame.font.SysFont(None, 24)
 
 player = MusicPlayer("music")
 
 running = True
-
 clock = pygame.time.Clock()
+
+
+def draw_text(text, x, y, font_obj):
+    rendered_text = font_obj.render(text, True, (255, 255, 255))
+    screen.blit(rendered_text, (x, y))
+
 
 while running:
     screen.fill((30, 30, 30))
-
-    # Display current track
-    track_name = player.get_current_track()
-    text = font.render(f"Now Playing: {track_name}", True, (255, 255, 255))
-    screen.blit(text, (50, 100))
-
-    #  Instructions
-    controls = font.render("P:Play S:Stop N:Next B:Back Q:Quit", True, (200, 200, 200))
-    screen.blit(controls, (50, 200))
-    
-    # current time position
-    position_total_sec = pygame.mixer.music.get_pos() / 1000  # total seconds
-    position_sec = int(position_total_sec % 60) # seconds
-    position_min = int(position_total_sec // 60) # minutes
-    time_text = font.render(f"Time: {int(position_min)}m {int(position_sec)}s", True, (255,255,255))
-    screen.blit(time_text, (50, 150))
-    pygame.display.flip()
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
@@ -50,6 +41,17 @@ while running:
             elif event.key == pygame.K_q:
                 running = False
 
-    clock.tick(30)
+    current_track = player.get_current_track()
+    position = player.get_position()
+
+    draw_text("Music Player", 210, 30, font)
+    draw_text(f"Current track: {current_track}", 50, 90, small_font)
+    draw_text(f"Position: {position} sec", 50, 130, small_font)
+
+    draw_text("Controls:", 50, 180, small_font)
+    draw_text("P - Play | S - Stop | N - Next | B - Back | Q - Quit", 50, 215, small_font)
+
+    pygame.display.update()
+    clock.tick(60)
 
 pygame.quit()
