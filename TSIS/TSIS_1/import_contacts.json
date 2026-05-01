@@ -1,0 +1,21 @@
+[
+    {
+        "contact_id": 99,
+        "first_name": "nurdaulet",
+        "last_name": "malik",
+        "email": "minafeed645@gmail.com",
+        "extra_info": "owner_of_the_db",
+        "birthday": null,
+        "group": "work",
+        "phones": [
+            {
+                "number": "+77026146900",
+                "type": "mobile"
+            },
+            {
+                "number": "+77773485045",
+                "type": "work"
+            }
+        ]
+    }
+]

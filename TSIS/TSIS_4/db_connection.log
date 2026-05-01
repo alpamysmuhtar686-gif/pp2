@@ -1,0 +1,3219 @@
+
+
+    ----------------------
+    2026-04-25 18:40:07
+    Connecting to the PostgreSQL database...
+PostgreSQL database version: 
+('PostgreSQL 18.3 (Debian 18.3-1.pgdg13+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 14.2.0-19) 14.2.0, 64-bit',)
+Database connection closed.
+
+
+    ----------------------
+    2026-04-25 18:40:19
+    Connecting to the PostgreSQL database...
+PostgreSQL database version: 
+('PostgreSQL 18.3 (Debian 18.3-1.pgdg13+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 14.2.0-19) 14.2.0, 64-bit',)
+Database connection closed.
+
+
+    ----------------------
+    2026-04-25 18:46:40
+    Error: no results to fetch
+
+    ----------------------
+    2026-04-25 18:47:24
+    Error: no results to fetch
+
+    ----------------------
+    2026-04-25 18:48:37
+    
+
+    ----------------------
+    2026-04-25 18:49:49
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 18:50:00
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 19:08:10
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 19:08:21
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 19:08:28
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 19:09:29
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 19:09:47
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 19:10:08
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 19:10:14
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 19:10:23
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 19:10:33
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 19:10:42
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 19:11:56
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 19:12:42
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 19:13:09
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 19:14:16
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 19:14:45
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 19:15:04
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 19:16:29
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 19:16:35
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 19:16:43
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 19:16:52
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 19:17:06
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 19:24:56
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 19:26:01
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 19:26:29
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 19:26:35
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 19:26:42
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 19:27:44
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 19:27:55
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 19:29:57
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 19:30:10
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 19:30:14
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 19:30:21
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 19:31:33
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 19:33:01
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 19:33:09
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 19:33:19
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 19:45:08
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 19:45:32
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 19:47:05
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 19:47:14
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 19:47:19
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 19:48:03
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 19:59:32
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 20:01:03
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 20:01:59
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 20:02:16
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 20:03:43
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 20:03:52
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 20:04:04
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 20:08:14
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 20:09:41
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 20:12:40
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 20:12:47
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 20:13:03
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 20:13:14
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 20:13:39
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 20:17:26
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 20:35:46
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 20:36:31
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 20:37:00
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 20:37:24
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 20:37:35
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 20:39:19
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 20:39:40
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 20:39:52
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 20:40:22
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 20:42:40
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 20:43:17
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:13:01
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:16:11
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:16:24
+    Error: relation "game_scores" does not exist
+LINE 3:     FROM game_scores gs
+                 ^
+
+
+    ----------------------
+    2026-04-25 21:16:24
+    Error: relation "game_scores" does not exist
+LINE 2:         INSERT INTO game_scores (player_id, score, level_rea...
+                            ^
+
+
+    ----------------------
+    2026-04-25 21:21:24
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:21:32
+    
+    SELECT MAX(gs.score)
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    WHERE p.username = %s
+    
+Parameters: ('itsuki',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:22:53
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:22:55
+    
+    SELECT p.username, gs.score, gs.level_reached, gs.played_at
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    ORDER BY gs.score DESC
+    LIMIT 10
+    
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:23:02
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:23:06
+    
+    SELECT MAX(gs.score)
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    WHERE p.username = %s
+    
+Parameters: ('itsuki',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:23:16
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:23:18
+    
+    SELECT p.username, gs.score, gs.level_reached, gs.played_at
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    ORDER BY gs.score DESC
+    LIMIT 10
+    
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:26:44
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:26:48
+    
+    SELECT p.username, gs.score, gs.level_reached, gs.played_at
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    ORDER BY gs.score DESC
+    LIMIT 10
+    
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:26:58
+    
+    SELECT MAX(gs.score)
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    WHERE p.username = %s
+    
+Parameters: ('itsuki',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:27:05
+    
+    SELECT p.username, gs.score, gs.level_reached, gs.played_at
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    ORDER BY gs.score DESC
+    LIMIT 10
+    
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:27:20
+    
+    SELECT MAX(gs.score)
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    WHERE p.username = %s
+    
+Parameters: ('itsuki',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:27:30
+    
+    SELECT MAX(gs.score)
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    WHERE p.username = %s
+    
+Parameters: ('itsuki',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:27:47
+    
+    SELECT MAX(gs.score)
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    WHERE p.username = %s
+    
+Parameters: ('itsuki',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:31:20
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:31:25
+    
+    SELECT MAX(gs.score)
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    WHERE p.username = %s
+    
+Parameters: ('itsuki1212',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:31:27
+    
+    SELECT p.username, gs.score, gs.level_reached, gs.played_at
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    ORDER BY gs.score DESC
+    LIMIT 10
+    
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:31:27
+    
+    INSERT INTO players (username)
+    VALUES (%s)
+    ON CONFLICT (username) DO NOTHING
+    
+Parameters: ('itsuki1212',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:31:28
+    
+    INSERT INTO game_sessions (player_id, score, level_reached, played_at)
+    VALUES (
+        (SELECT id FROM players WHERE username = %s),
+        %s, %s, NOW()
+    )
+    
+Parameters: ('itsuki1212', 0, 1)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:31:36
+    
+    SELECT p.username, gs.score, gs.level_reached, gs.played_at
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    ORDER BY gs.score DESC
+    LIMIT 10
+    
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:31:42
+    
+    SELECT MAX(gs.score)
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    WHERE p.username = %s
+    
+Parameters: ('itsukiliquid',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:31:51
+    
+    SELECT p.username, gs.score, gs.level_reached, gs.played_at
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    ORDER BY gs.score DESC
+    LIMIT 10
+    
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:31:51
+    
+    INSERT INTO players (username)
+    VALUES (%s)
+    ON CONFLICT (username) DO NOTHING
+    
+Parameters: ('itsukiliquid',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:31:51
+    
+    INSERT INTO game_sessions (player_id, score, level_reached, played_at)
+    VALUES (
+        (SELECT id FROM players WHERE username = %s),
+        %s, %s, NOW()
+    )
+    
+Parameters: ('itsukiliquid', 3, 1)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:31:55
+    
+    SELECT p.username, gs.score, gs.level_reached, gs.played_at
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    ORDER BY gs.score DESC
+    LIMIT 10
+    
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:32:06
+    
+    SELECT MAX(gs.score)
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    WHERE p.username = %s
+    
+Parameters: ('dev',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:32:13
+    
+    SELECT MAX(gs.score)
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    WHERE p.username = %s
+    
+Parameters: ('itsukiliquid',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:32:22
+    
+    SELECT MAX(gs.score)
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    WHERE p.username = %s
+    
+Parameters: ('eee',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:32:31
+    
+    SELECT p.username, gs.score, gs.level_reached, gs.played_at
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    ORDER BY gs.score DESC
+    LIMIT 10
+    
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:32:31
+    
+    INSERT INTO players (username)
+    VALUES (%s)
+    ON CONFLICT (username) DO NOTHING
+    
+Parameters: ('eee',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:32:31
+    
+    INSERT INTO game_sessions (player_id, score, level_reached, played_at)
+    VALUES (
+        (SELECT id FROM players WHERE username = %s),
+        %s, %s, NOW()
+    )
+    
+Parameters: ('eee', 7, 2)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:32:40
+    
+    SELECT MAX(gs.score)
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    WHERE p.username = %s
+    
+Parameters: ('itsuki1234567',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:32:53
+    
+    SELECT p.username, gs.score, gs.level_reached, gs.played_at
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    ORDER BY gs.score DESC
+    LIMIT 10
+    
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:32:53
+    
+    INSERT INTO players (username)
+    VALUES (%s)
+    ON CONFLICT (username) DO NOTHING
+    
+Parameters: ('itsuki1234567',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:32:53
+    
+    INSERT INTO game_sessions (player_id, score, level_reached, played_at)
+    VALUES (
+        (SELECT id FROM players WHERE username = %s),
+        %s, %s, NOW()
+    )
+    
+Parameters: ('itsuki1234567', 10, 3)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:36:35
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:36:39
+    
+    SELECT p.username, gs.score, gs.level_reached, gs.played_at
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    ORDER BY gs.score DESC
+    LIMIT 10
+    
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:36:49
+    
+    SELECT MAX(gs.score)
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    WHERE p.username = %s
+    
+Parameters: ('itsuki_test',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:36:52
+    
+    SELECT p.username, gs.score, gs.level_reached, gs.played_at
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    ORDER BY gs.score DESC
+    LIMIT 10
+    
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:36:52
+    
+    INSERT INTO players (username)
+    VALUES (%s)
+    ON CONFLICT (username) DO NOTHING
+    
+Parameters: ('itsuki_test',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:36:52
+    
+    INSERT INTO game_sessions (player_id, score, level_reached, played_at)
+    VALUES (
+        (SELECT id FROM players WHERE username = %s),
+        %s, %s, NOW()
+    )
+    
+Parameters: ('itsuki_test', 0, 1)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:37:05
+    
+    SELECT MAX(gs.score)
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    WHERE p.username = %s
+    
+Parameters: ('asasassas',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:38:04
+    
+    SELECT p.username, gs.score, gs.level_reached, gs.played_at
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    ORDER BY gs.score DESC
+    LIMIT 10
+    
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:38:05
+    
+    INSERT INTO players (username)
+    VALUES (%s)
+    ON CONFLICT (username) DO NOTHING
+    
+Parameters: ('asasassas',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:38:05
+    
+    INSERT INTO game_sessions (player_id, score, level_reached, played_at)
+    VALUES (
+        (SELECT id FROM players WHERE username = %s),
+        %s, %s, NOW()
+    )
+    
+Parameters: ('asasassas', 45, 10)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:40:36
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:40:48
+    
+    SELECT MAX(gs.score)
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    WHERE p.username = %s
+    
+Parameters: ('itsuki_test',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:41:01
+    
+    SELECT p.username, gs.score, gs.level_reached, gs.played_at
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    ORDER BY gs.score DESC
+    LIMIT 10
+    
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:41:01
+    
+    INSERT INTO players (username)
+    VALUES (%s)
+    ON CONFLICT (username) DO NOTHING
+    
+Parameters: ('itsuki_test',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:41:01
+    
+    INSERT INTO game_sessions (player_id, score, level_reached, played_at)
+    VALUES (
+        (SELECT id FROM players WHERE username = %s),
+        %s, %s, NOW()
+    )
+    
+Parameters: ('itsuki_test', 16, 4)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:43:45
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:44:03
+    
+    SELECT p.username, gs.score, gs.level_reached, gs.played_at
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    ORDER BY gs.score DESC
+    LIMIT 10
+    
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:44:08
+    
+    SELECT MAX(gs.score)
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    WHERE p.username = %s
+    
+Parameters: ('asset',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:44:25
+    
+    SELECT p.username, gs.score, gs.level_reached, gs.played_at
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    ORDER BY gs.score DESC
+    LIMIT 10
+    
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:44:25
+    
+    INSERT INTO players (username)
+    VALUES (%s)
+    ON CONFLICT (username) DO NOTHING
+    
+Parameters: ('asset',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:44:25
+    
+    INSERT INTO game_sessions (player_id, score, level_reached, played_at)
+    VALUES (
+        (SELECT id FROM players WHERE username = %s),
+        %s, %s, NOW()
+    )
+    
+Parameters: ('asset', 5, 2)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:44:36
+    
+    SELECT MAX(gs.score)
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    WHERE p.username = %s
+    
+Parameters: ('idjfidjfd',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:44:43
+    
+    SELECT p.username, gs.score, gs.level_reached, gs.played_at
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    ORDER BY gs.score DESC
+    LIMIT 10
+    
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:44:43
+    
+    INSERT INTO players (username)
+    VALUES (%s)
+    ON CONFLICT (username) DO NOTHING
+    
+Parameters: ('idjfidjfd',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:44:43
+    
+    INSERT INTO game_sessions (player_id, score, level_reached, played_at)
+    VALUES (
+        (SELECT id FROM players WHERE username = %s),
+        %s, %s, NOW()
+    )
+    
+Parameters: ('idjfidjfd', 3, 1)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:44:50
+    
+    SELECT p.username, gs.score, gs.level_reached, gs.played_at
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    ORDER BY gs.score DESC
+    LIMIT 10
+    
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:45:02
+    
+    SELECT MAX(gs.score)
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    WHERE p.username = %s
+    
+Parameters: ('sdsdsd',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:45:13
+    
+    SELECT p.username, gs.score, gs.level_reached, gs.played_at
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    ORDER BY gs.score DESC
+    LIMIT 10
+    
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:45:13
+    
+    INSERT INTO players (username)
+    VALUES (%s)
+    ON CONFLICT (username) DO NOTHING
+    
+Parameters: ('sdsdsd',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:45:13
+    
+    INSERT INTO game_sessions (player_id, score, level_reached, played_at)
+    VALUES (
+        (SELECT id FROM players WHERE username = %s),
+        %s, %s, NOW()
+    )
+    
+Parameters: ('sdsdsd', 13, 3)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:45:19
+    
+    SELECT p.username, gs.score, gs.level_reached, gs.played_at
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    ORDER BY gs.score DESC
+    LIMIT 10
+    
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:50:00
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:50:02
+    
+    SELECT p.username, gs.score, gs.level_reached, gs.played_at
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    ORDER BY gs.score DESC
+    LIMIT 10
+    
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:50:10
+    
+    SELECT MAX(gs.score)
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    WHERE p.username = %s
+    
+Parameters: ('itsuki_123453',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:50:14
+    
+    SELECT p.username, gs.score, gs.level_reached, gs.played_at
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    ORDER BY gs.score DESC
+    LIMIT 10
+    
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:50:14
+    
+    INSERT INTO players (username)
+    VALUES (%s)
+    ON CONFLICT (username) DO NOTHING
+    
+Parameters: ('itsuki_123453',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:50:14
+    
+    INSERT INTO game_sessions (player_id, score, level_reached, played_at)
+    VALUES (
+        (SELECT id FROM players WHERE username = %s),
+        %s, %s, NOW()
+    )
+    
+Parameters: ('itsuki_123453', 3, 1)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:50:36
+    
+    SELECT p.username, gs.score, gs.level_reached, gs.played_at
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    ORDER BY gs.score DESC
+    LIMIT 10
+    
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:51:29
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:51:34
+    
+    SELECT p.username, gs.score, gs.level_reached, gs.played_at
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    ORDER BY gs.score DESC
+    LIMIT 10
+    
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:51:49
+    
+    SELECT MAX(gs.score)
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    WHERE p.username = %s
+    
+Parameters: ('itsukie23232',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:51:57
+    
+    SELECT p.username, gs.score, gs.level_reached, gs.played_at
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    ORDER BY gs.score DESC
+    LIMIT 10
+    
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:51:57
+    
+    INSERT INTO players (username)
+    VALUES (%s)
+    ON CONFLICT (username) DO NOTHING
+    
+Parameters: ('itsukie23232',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:51:57
+    
+    INSERT INTO game_sessions (player_id, score, level_reached, played_at)
+    VALUES (
+        (SELECT id FROM players WHERE username = %s),
+        %s, %s, NOW()
+    )
+    
+Parameters: ('itsukie23232', 4, 1)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:52:03
+    
+    SELECT p.username, gs.score, gs.level_reached, gs.played_at
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    ORDER BY gs.score DESC
+    LIMIT 10
+    
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:53:35
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:53:37
+    
+    SELECT p.username, gs.score, gs.level_reached, gs.played_at
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    ORDER BY gs.score DESC
+    LIMIT 10
+    
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:53:51
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:53:54
+    
+    SELECT MAX(gs.score)
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    WHERE p.username = %s
+    
+Parameters: ('itsukiweewe',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 21:53:56
+    
+    SELECT p.username, gs.score, gs.level_reached, gs.played_at
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    ORDER BY gs.score DESC
+    LIMIT 10
+    
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 22:01:09
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 22:01:15
+    
+    SELECT p.username, gs.score, gs.level_reached, gs.played_at
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    ORDER BY gs.score DESC
+    LIMIT 10
+    
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 22:01:19
+    
+    SELECT MAX(gs.score)
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    WHERE p.username = %s
+    
+Parameters: ('itsuki',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 22:01:23
+    
+    SELECT p.username, gs.score, gs.level_reached, gs.played_at
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    ORDER BY gs.score DESC
+    LIMIT 10
+    
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 22:01:24
+    
+    INSERT INTO players (username)
+    VALUES (%s)
+    ON CONFLICT (username) DO NOTHING
+    
+Parameters: ('itsuki',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 22:01:24
+    
+    INSERT INTO game_sessions (player_id, score, level_reached, played_at)
+    VALUES (
+        (SELECT id FROM players WHERE username = %s),
+        %s, %s, NOW()
+    )
+    
+Parameters: ('itsuki', 0, 1)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 22:05:04
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 22:05:07
+    
+    SELECT p.username, gs.score, gs.level_reached, gs.played_at
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    ORDER BY gs.score DESC
+    LIMIT 10
+    
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 22:05:14
+    
+    SELECT MAX(gs.score)
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    WHERE p.username = %s
+    
+Parameters: ('itsukiluiq',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 22:05:41
+    
+    SELECT p.username, gs.score, gs.level_reached, gs.played_at
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    ORDER BY gs.score DESC
+    LIMIT 10
+    
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 22:05:45
+    
+    SELECT MAX(gs.score)
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    WHERE p.username = %s
+    
+Parameters: ('itsukilqiuid',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 22:05:46
+    
+    SELECT p.username, gs.score, gs.level_reached, gs.played_at
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    ORDER BY gs.score DESC
+    LIMIT 10
+    
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 22:05:46
+    
+    INSERT INTO players (username)
+    VALUES (%s)
+    ON CONFLICT (username) DO NOTHING
+    
+Parameters: ('itsukilqiuid',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 22:05:47
+    
+    INSERT INTO game_sessions (player_id, score, level_reached, played_at)
+    VALUES (
+        (SELECT id FROM players WHERE username = %s),
+        %s, %s, NOW()
+    )
+    
+Parameters: ('itsukilqiuid', 0, 1)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 22:08:11
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 22:08:14
+    
+    SELECT p.username, gs.score, gs.level_reached, gs.played_at
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    ORDER BY gs.score DESC
+    LIMIT 10
+    
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 22:08:17
+    
+    SELECT p.username, gs.score, gs.level_reached, gs.played_at
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    ORDER BY gs.score DESC
+    LIMIT 10
+    
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 22:08:24
+    
+    SELECT MAX(gs.score)
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    WHERE p.username = %s
+    
+Parameters: ('itsukiliquid',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 22:08:33
+    
+    SELECT p.username, gs.score, gs.level_reached, gs.played_at
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    ORDER BY gs.score DESC
+    LIMIT 10
+    
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 22:08:33
+    
+    INSERT INTO players (username)
+    VALUES (%s)
+    ON CONFLICT (username) DO NOTHING
+    
+Parameters: ('itsukiliquid',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 22:08:33
+    
+    INSERT INTO game_sessions (player_id, score, level_reached, played_at)
+    VALUES (
+        (SELECT id FROM players WHERE username = %s),
+        %s, %s, NOW() AT TIME ZONE 'Asia/Almaty'
+    )
+    
+Parameters: ('itsukiliquid', 6, 2)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 22:08:51
+    
+    SELECT p.username, gs.score, gs.level_reached, gs.played_at
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    ORDER BY gs.score DESC
+    LIMIT 10
+    
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 22:08:58
+    
+    SELECT MAX(gs.score)
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    WHERE p.username = %s
+    
+Parameters: ('itsukiliquid',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 22:09:05
+    
+    SELECT p.username, gs.score, gs.level_reached, gs.played_at
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    ORDER BY gs.score DESC
+    LIMIT 10
+    
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 22:09:05
+    
+    INSERT INTO players (username)
+    VALUES (%s)
+    ON CONFLICT (username) DO NOTHING
+    
+Parameters: ('itsukiliquid',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 22:09:06
+    
+    INSERT INTO game_sessions (player_id, score, level_reached, played_at)
+    VALUES (
+        (SELECT id FROM players WHERE username = %s),
+        %s, %s, NOW() AT TIME ZONE 'Asia/Almaty'
+    )
+    
+Parameters: ('itsukiliquid', 2, 1)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 22:09:13
+    
+    SELECT MAX(gs.score)
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    WHERE p.username = %s
+    
+Parameters: ('itsukiliquid',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 22:09:24
+    
+    SELECT MAX(gs.score)
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    WHERE p.username = %s
+    
+Parameters: ('itsukiiliquid',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 22:09:37
+    
+    SELECT p.username, gs.score, gs.level_reached, gs.played_at
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    ORDER BY gs.score DESC
+    LIMIT 10
+    
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 22:09:38
+    
+    INSERT INTO players (username)
+    VALUES (%s)
+    ON CONFLICT (username) DO NOTHING
+    
+Parameters: ('itsukiiliquid',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 22:09:39
+    
+    INSERT INTO game_sessions (player_id, score, level_reached, played_at)
+    VALUES (
+        (SELECT id FROM players WHERE username = %s),
+        %s, %s, NOW() AT TIME ZONE 'Asia/Almaty'
+    )
+    
+Parameters: ('itsukiiliquid', 9, 2)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 22:09:48
+    
+    SELECT p.username, gs.score, gs.level_reached, gs.played_at
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    ORDER BY gs.score DESC
+    LIMIT 10
+    
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 22:09:57
+    
+    SELECT MAX(gs.score)
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    WHERE p.username = %s
+    
+Parameters: ('itsukiliquid',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 22:10:05
+    
+    SELECT MAX(gs.score)
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    WHERE p.username = %s
+    
+Parameters: ('itsukiliquid',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 22:10:19
+    
+    SELECT p.username, gs.score, gs.level_reached, gs.played_at
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    ORDER BY gs.score DESC
+    LIMIT 10
+    
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 22:10:19
+    
+    INSERT INTO players (username)
+    VALUES (%s)
+    ON CONFLICT (username) DO NOTHING
+    
+Parameters: ('itsukiliquid',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-25 22:10:19
+    
+    INSERT INTO game_sessions (player_id, score, level_reached, played_at)
+    VALUES (
+        (SELECT id FROM players WHERE username = %s),
+        %s, %s, NOW() AT TIME ZONE 'Asia/Almaty'
+    )
+    
+Parameters: ('itsukiliquid', 5, 2)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-26 20:21:20
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-26 20:21:28
+    
+    SELECT p.username, gs.score, gs.level_reached, gs.played_at
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    ORDER BY gs.score DESC
+    LIMIT 10
+    
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-26 20:21:35
+    
+    SELECT MAX(gs.score)
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    WHERE p.username = %s
+    
+Parameters: ('general_test',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-26 20:22:32
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-26 20:22:37
+    
+    SELECT p.username, gs.score, gs.level_reached, gs.played_at
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    ORDER BY gs.score DESC
+    LIMIT 10
+    
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-26 20:23:00
+    
+    SELECT MAX(gs.score)
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    WHERE p.username = %s
+    
+Parameters: ('general_test',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-26 20:23:45
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-26 20:23:50
+    
+    SELECT MAX(gs.score)
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    WHERE p.username = %s
+    
+Parameters: ('general_Test',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-26 20:25:53
+    
+CREATE TABLE if not exists players (
+    id       SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE if not exists game_sessions (
+    id            SERIAL PRIMARY KEY,
+    player_id     INTEGER REFERENCES players(id),
+    score         INTEGER   NOT NULL,
+    level_reached INTEGER   NOT NULL,
+    played_at     TIMESTAMP DEFAULT NOW()
+);
+
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-26 20:26:02
+    
+    SELECT MAX(gs.score)
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    WHERE p.username = %s
+    
+Parameters: ('rungame_test',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-26 20:26:07
+    
+    SELECT p.username, gs.score, gs.level_reached, gs.played_at
+    FROM game_sessions gs
+    JOIN players p ON gs.player_id = p.id
+    ORDER BY gs.score DESC
+    LIMIT 10
+    
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-26 20:26:07
+    
+    INSERT INTO players (username)
+    VALUES (%s)
+    ON CONFLICT (username) DO NOTHING
+    
+Parameters: ('rungame_test',)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-26 20:26:08
+    
+    INSERT INTO game_sessions (player_id, score, level_reached, played_at)
+    VALUES (
+        (SELECT id FROM players WHERE username = %s),
+        %s, %s, NOW() AT TIME ZONE 'Asia/Almaty'
+    )
+    
+Parameters: ('rungame_test', 1, 1)
+Query executed successfully.
+
+
+    ----------------------
+    2026-04-27 16:34:26
+    Error: Section postgresql not found in the database.ini file
+
+    ----------------------
+    2026-04-27 16:34:29
+    Error: Section postgresql not found in the database.ini file
+
+    ----------------------
+    2026-04-27 16:34:48
+    Error: Section postgresql not found in the database.ini file
+
+    ----------------------
+    2026-04-27 16:34:59
+    Error: Section postgresql not found in the database.ini file
+
+    ----------------------
+    2026-04-27 16:38:52
+    Error: Section postgresql not found in the database.ini file
+
+    ----------------------
+    2026-04-27 16:38:59
+    Error: Section postgresql not found in the database.ini file
+
+    ----------------------
+    2026-04-30 02:36:48
+    Error: Section postgresql not found in the database.ini file
+
+    ----------------------
+    2026-04-30 02:37:13
+    Error: Section postgresql not found in the database.ini file
+
+    ----------------------
+    2026-04-30 02:37:17
+    Error: Section postgresql not found in the database.ini file

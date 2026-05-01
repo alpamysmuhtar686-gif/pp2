@@ -1,0 +1,244 @@
+[
+    {
+        "contact_id": 10,
+        "first_name": "nurdaulet",
+        "last_name": "malik",
+        "email": "minafeed645@gmail.com",
+        "extra_info": "owner_of_the_db",
+        "birthday": null,
+        "group": "work",
+        "phones": [
+            {
+                "number": "+77773485045",
+                "type": "work"
+            }
+        ]
+    },
+    {
+        "contact_id": 8,
+        "first_name": "nurdaulet",
+        "last_name": "malik",
+        "email": "23r3435r5r",
+        "extra_info": "fdfkdnfdkf",
+        "birthday": null,
+        "group": "work",
+        "phones": [
+            {
+                "number": "+12343",
+                "type": "work"
+            },
+            {
+                "number": "+2345665",
+                "type": "home"
+            },
+            {
+                "number": "+23434",
+                "type": "mobile"
+            }
+        ]
+    },
+    {
+        "contact_id": 1,
+        "first_name": "nurdaulet",
+        "last_name": "malik",
+        "email": "minafeed645@gmail.com",
+        "extra_info": "owner_of_the_db",
+        "birthday": null,
+        "group": "work",
+        "phones": []
+    },
+    {
+        "contact_id": 19,
+        "first_name": "dijfidjf",
+        "last_name": "jsndjlsndls",
+        "email": "aaabbbbs@gmail.com",
+        "extra_info": "brbrskibidi",
+        "birthday": null,
+        "group": null,
+        "phones": [
+            {
+                "number": "+1234567890",
+                "type": "mobile"
+            }
+        ]
+    },
+    {
+        "contact_id": 18,
+        "first_name": "asset",
+        "last_name": "amal",
+        "email": "a_amal@kbtu.kz",
+        "extra_info": null,
+        "birthday": null,
+        "group": null,
+        "phones": [
+            {
+                "number": "+77475367223",
+                "type": "mobile"
+            }
+        ]
+    },
+    {
+        "contact_id": 17,
+        "first_name": "itsuki",
+        "last_name": "liquid",
+        "email": "minafeed645@gmail.com",
+        "extra_info": ".",
+        "birthday": null,
+        "group": null,
+        "phones": [
+            {
+                "number": "+123456789",
+                "type": "mobile"
+            }
+        ]
+    },
+    {
+        "contact_id": 16,
+        "first_name": "hidden",
+        "last_name": "hidden",
+        "email": "n*****12555@gmail.com",
+        "extra_info": "gf_of_the_owner",
+        "birthday": null,
+        "group": null,
+        "phones": [
+            {
+                "number": "+7******1255",
+                "type": "mobile"
+            }
+        ]
+    },
+    {
+        "contact_id": 15,
+        "first_name": "nurdaulet",
+        "last_name": "malik",
+        "email": "minafeed645@gmail.com",
+        "extra_info": "owner_of_the_db",
+        "birthday": null,
+        "group": null,
+        "phones": [
+            {
+                "number": "+77773485045",
+                "type": "work"
+            }
+        ]
+    },
+    {
+        "contact_id": 14,
+        "first_name": "dijfidjf",
+        "last_name": "jsndjlsndls",
+        "email": "aaabbbbs@gmail.com",
+        "extra_info": "brbrskibidi",
+        "birthday": null,
+        "group": null,
+        "phones": [
+            {
+                "number": "+1234567890",
+                "type": "mobile"
+            }
+        ]
+    },
+    {
+        "contact_id": 13,
+        "first_name": "asset",
+        "last_name": "amal",
+        "email": "a_amal@kbtu.kz",
+        "extra_info": null,
+        "birthday": null,
+        "group": null,
+        "phones": [
+            {
+                "number": "+77475367223",
+                "type": "mobile"
+            }
+        ]
+    },
+    {
+        "contact_id": 12,
+        "first_name": "itsuki",
+        "last_name": "liquid",
+        "email": "minafeed645@gmail.com",
+        "extra_info": ".",
+        "birthday": null,
+        "group": null,
+        "phones": [
+            {
+                "number": "+123456789",
+                "type": "mobile"
+            }
+        ]
+    },
+    {
+        "contact_id": 11,
+        "first_name": "hidden",
+        "last_name": "hidden",
+        "email": "n*****12555@gmail.com",
+        "extra_info": "gf_of_the_owner",
+        "birthday": null,
+        "group": null,
+        "phones": [
+            {
+                "number": "+7******1255",
+                "type": "mobile"
+            }
+        ]
+    },
+    {
+        "contact_id": 9,
+        "first_name": "nurik",
+        "last_name": "malik",
+        "email": "wewew",
+        "extra_info": "weweewew",
+        "birthday": null,
+        "group": null,
+        "phones": [
+            {
+                "number": "+12122121212",
+                "type": "mobile"
+            },
+            {
+                "number": "+123434",
+                "type": "work"
+            }
+        ]
+    },
+    {
+        "contact_id": 5,
+        "first_name": "dijfidjf",
+        "last_name": "jsndjlsndls",
+        "email": "aaabbbbs@gmail.com",
+        "extra_info": "brbrskibidi",
+        "birthday": null,
+        "group": null,
+        "phones": []
+    },
+    {
+        "contact_id": 4,
+        "first_name": "asset",
+        "last_name": "amal",
+        "email": "a_amal@kbtu.kz",
+        "extra_info": "",
+        "birthday": null,
+        "group": null,
+        "phones": []
+    },
+    {
+        "contact_id": 3,
+        "first_name": "itsuki",
+        "last_name": "liquid",
+        "email": "minafeed645@gmail.com",
+        "extra_info": ".",
+        "birthday": null,
+        "group": null,
+        "phones": []
+    },
+    {
+        "contact_id": 2,
+        "first_name": "hidden",
+        "last_name": "hidden",
+        "email": "n*****12555@gmail.com",
+        "extra_info": "gf_of_the_owner",
+        "birthday": null,
+        "group": null,
+        "phones": []
+    }
+]
